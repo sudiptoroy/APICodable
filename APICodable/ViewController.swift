@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func getJsonButton(_ sender: Any) {
         
         let url = "https://restcountries.eu/rest/v2/all"
+        countryString = ""
         
         Alamofire.request(url).validate().responseJSON { response in
             //print(response.data.map { String(decoding: $0, as: UTF8.self) } ?? "No data.")
