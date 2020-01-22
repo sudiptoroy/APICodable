@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2241EC8FD239F2407189E3EC /* Pods_APICodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0913C3C6ED31B341E41A47F /* Pods_APICodable.framework */; };
 		48DFC58123D8518400FF2C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFC58023D8518400FF2C9F /* AppDelegate.swift */; };
 		48DFC58323D8518400FF2C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFC58223D8518400FF2C9F /* ViewController.swift */; };
 		48DFC58623D8518400FF2C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DFC58423D8518400FF2C9F /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		48DFC58B23D8518500FF2C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DFC58A23D8518500FF2C9F /* Assets.xcassets */; };
 		48DFC58E23D8518500FF2C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DFC58C23D8518500FF2C9F /* LaunchScreen.storyboard */; };
 		48DFC59923D8518500FF2C9F /* APICodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DFC59823D8518500FF2C9F /* APICodableTests.swift */; };
+		67B6434D1A45679F65E54255 /* Pods_APICodableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A584468565B0ABE1A7DF36 /* Pods_APICodableTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A584468565B0ABE1A7DF36 /* Pods_APICodableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APICodableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D06A5EA72C5A032195D02B /* Pods-APICodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICodable.debug.xcconfig"; path = "Target Support Files/Pods-APICodable/Pods-APICodable.debug.xcconfig"; sourceTree = "<group>"; };
+		3965375D725E5EB744415455 /* Pods-APICodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICodable.release.xcconfig"; path = "Target Support Files/Pods-APICodable/Pods-APICodable.release.xcconfig"; sourceTree = "<group>"; };
 		48DFC57D23D8518400FF2C9F /* APICodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DFC58023D8518400FF2C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48DFC58223D8518400FF2C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		48DFC59423D8518500FF2C9F /* APICodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APICodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DFC59823D8518500FF2C9F /* APICodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICodableTests.swift; sourceTree = "<group>"; };
 		48DFC59A23D8518500FF2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EBA504E5378D70E6A613D7 /* Pods-APICodableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICodableTests.release.xcconfig"; path = "Target Support Files/Pods-APICodableTests/Pods-APICodableTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1626F01751C4703A163712A /* Pods-APICodableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APICodableTests.debug.xcconfig"; path = "Target Support Files/Pods-APICodableTests/Pods-APICodableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0913C3C6ED31B341E41A47F /* Pods_APICodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APICodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2241EC8FD239F2407189E3EC /* Pods_APICodable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B6434D1A45679F65E54255 /* Pods_APICodableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				48DFC57F23D8518400FF2C9F /* APICodable */,
 				48DFC59723D8518500FF2C9F /* APICodableTests */,
 				48DFC57E23D8518400FF2C9F /* Products */,
+				9C47170CBEF0CE6738F15434 /* Pods */,
+				7E30587FD98B486050167383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = APICodableTests;
 			sourceTree = "<group>";
 		};
+		7E30587FD98B486050167383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0913C3C6ED31B341E41A47F /* Pods_APICodable.framework */,
+				00A584468565B0ABE1A7DF36 /* Pods_APICodableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C47170CBEF0CE6738F15434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02D06A5EA72C5A032195D02B /* Pods-APICodable.debug.xcconfig */,
+				3965375D725E5EB744415455 /* Pods-APICodable.release.xcconfig */,
+				B1626F01751C4703A163712A /* Pods-APICodableTests.debug.xcconfig */,
+				73EBA504E5378D70E6A613D7 /* Pods-APICodableTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48DFC59D23D8518500FF2C9F /* Build configuration list for PBXNativeTarget "APICodable" */;
 			buildPhases = (
+				99514F6ACB64FFCE4AF56922 /* [CP] Check Pods Manifest.lock */,
 				48DFC57923D8518400FF2C9F /* Sources */,
 				48DFC57A23D8518400FF2C9F /* Frameworks */,
 				48DFC57B23D8518400FF2C9F /* Resources */,
+				3A0021E69EC8834D17B3F5EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48DFC5A023D8518500FF2C9F /* Build configuration list for PBXNativeTarget "APICodableTests" */;
 			buildPhases = (
+				66DB401A31C6B5B6EDECF147 /* [CP] Check Pods Manifest.lock */,
 				48DFC59023D8518500FF2C9F /* Sources */,
 				48DFC59123D8518500FF2C9F /* Frameworks */,
 				48DFC59223D8518500FF2C9F /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A0021E69EC8834D17B3F5EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APICodable/Pods-APICodable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APICodable/Pods-APICodable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APICodable/Pods-APICodable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DB401A31C6B5B6EDECF147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APICodableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99514F6ACB64FFCE4AF56922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APICodable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48DFC57923D8518400FF2C9F /* Sources */ = {
@@ -362,6 +462,7 @@
 		};
 		48DFC59E23D8518500FF2C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D06A5EA72C5A032195D02B /* Pods-APICodable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +480,7 @@
 		};
 		48DFC59F23D8518500FF2C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3965375D725E5EB744415455 /* Pods-APICodable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +498,7 @@
 		};
 		48DFC5A123D8518500FF2C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1626F01751C4703A163712A /* Pods-APICodableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +519,7 @@
 		};
 		48DFC5A223D8518500FF2C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EBA504E5378D70E6A613D7 /* Pods-APICodableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
