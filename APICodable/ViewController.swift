@@ -10,33 +10,37 @@ import UIKit
 import Alamofire
 
 struct Country: Decodable {
-    let name: String
-    let capital: String
-    let region: String
+    let name: String?
+    let capital: String?
+    let region: String?
 }
 
+
+
 class ViewController: UIViewController {
+    
+    let decoder = JSONDecoder()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         let url = "https://restcountries.eu/rest/v2/all"
-        let urlObj = URL(string: url)
         
-        URLSession.shared.dataTask(with: urlObj!) {(data, response, error) in
+        Alamofire.request(url).validate().responseJSON { response in
+            //print(response.data.map { String(decoding: $0, as: UTF8.self) } ?? "No data.")
+            do {
             
-            do{
-                let countries = try JSONDecoder().decode([Country].self, from: data!)
-                
-                for Country in countries {
-                    print(Country.name + ":" + Country.capital)
+                let countries = try self.decoder.decode([Country].self, from: response.data! )
+                for item in countries {
+                    print(item.name! + " : " + item.capital!)
                 }
-                
-            } catch{
+
+            } catch {
                 print("Error")
             }
-        }.resume()
+        }
     }
 }
+
 
